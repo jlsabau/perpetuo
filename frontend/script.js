@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
-    fetch("https://perpetuo-backend.onrender.com/articles")
-        .then(response => response.json())
+    fetch("https://perpetuo-lyzz.onrender.com/articles")  // NEW: Your live backend
+    .then(response => response.json())
         .then(data => {
             const container = document.getElementById("articles-container");
             data.forEach(article => {
